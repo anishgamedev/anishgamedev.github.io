@@ -1,0 +1,18 @@
+{
+  "siteName": "Indiandevanish Games",
+  "shortName": "Indiandevanish",
+  "tagline": "Desi dev ke free online games — khelo, share karo!",
+  "siteUrl": "https://anishgamedev.github.io",
+  "lang": "en-IN",
+  "developerName": "Anish (Indiandevanish)",
+  "developerCity": "Gorakhpur, Uttar Pradesh, India",
+  "itchProfile": "https://indiandevanish.itch.io",
+  "contactEmail": "",
+  "googleSiteVerification": "",
+  "featuredSlug": "indian-auto-wala-rush",
+  "revenue": {
+    "_help": "Revenue is credited by DOMAIN: add anishgamedev.github.io as a website in your GameMonetize (and GameDistribution publisher) account. No IDs go here. See ADD-A-GAME.md.",
+    "gameDistributionReferrer": true
+  },
+  "hiddenProviders": []
+}
