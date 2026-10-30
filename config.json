@@ -14,5 +14,7 @@
     "_help": "Revenue is credited by DOMAIN: add anishgamedev.github.io as a website in your GameMonetize (and GameDistribution publisher) account. No IDs go here. See ADD-A-GAME.md.",
     "gameDistributionReferrer": true
   },
-  "hiddenProviders": []
+  "hiddenProviders": [
+    "gamedistribution"
+  ]
 }

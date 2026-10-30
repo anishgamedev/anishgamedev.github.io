@@ -88,7 +88,8 @@ Yahan **koi ID ya code site mein nahi daalna**. Paisa tumhari **website (domain)
 
 **GameDistribution** (optional)
 1. gamedistribution.com pe **Publisher** account (developer account se alag) → apni website `anishgamedev.github.io` add karo.
-2. Site already har GameDistribution game ke link mein `gd_sdk_referrer_url` (tumhara page link) bhejti hai — aur kuch nahi karna.
+2. Site already har GameDistribution game ke link mein `gd_sdk_referrer_url` (tumhara page link) bhejti hai.
+3. ⚠️ Abhi GameDistribution ke 17 games (Ludo, Chess, Mini Golf…) `games.json` mein hain par **chhupe hue** hain — GameDistribution naye website pe "Game is not available here" dikha raha tha. Publisher account mein site approve hone ke baad `config.json` mein `"hiddenProviders": ["gamedistribution"]` ko `"hiddenProviders": []` kar do → saare GD games wapas dikhne lagenge. (Pehle ek game khol ke check kar lena.)
 
 **ads.txt mein nayi line?** Agar koi network bole "ads.txt mein ye line daalo" → GitHub pe `ads.txt` kholo → ✏️ Edit → line neeche jodo → Commit.
 

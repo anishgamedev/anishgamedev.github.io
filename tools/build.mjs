@@ -16,13 +16,14 @@ const SITE = cfg.siteUrl.replace(/\/$/, '');
 const NAME = cfg.siteName;
 const V = Date.now().toString(36); // cache-buster for css/js
 
-const CATS = [
+const CATS_ALL = [
   { key: 'Racing', slug: 'racing', emoji: '🏁', hi: 'Racing & Driving games' },
   { key: 'Puzzle', slug: 'puzzle', emoji: '🧩', hi: 'Puzzle & brain games' },
   { key: 'Arcade', slug: 'arcade', emoji: '🕹️', hi: 'Arcade & runner games' },
   { key: 'Sports', slug: 'sports', emoji: '⚽', hi: 'Sports games' },
   { key: 'Board', slug: 'board', emoji: '🎲', hi: 'Board & card games (Ludo, Chess…)' },
 ];
+const CATS = CATS_ALL.filter((c) => games.some((g) => g.category === c.key));
 const catOf = (k) => CATS.find((c) => c.key === k) || { key: k, slug: k.toLowerCase().replace(/[^a-z0-9]+/g, '-'), emoji: '🎮', hi: k + ' games' };
 
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
